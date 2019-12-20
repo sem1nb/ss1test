@@ -1,2 +1,2 @@
-echo "test 1"
-sleep 10
+psql -c "\l" 
+psql -c "\encoding" 
