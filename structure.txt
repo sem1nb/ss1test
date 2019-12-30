@@ -12,6 +12,7 @@ SET row_security = off;
 --
 -- Name: pg_trgm; Type: EXTENSION; Schema: -; Owner: -
 --
+CREATE COLLATION pg_catalog."nb_NO" (LOCALE = "nb_NO.utf8");
 
 CREATE EXTENSION IF NOT EXISTS pg_trgm WITH SCHEMA public;
 
